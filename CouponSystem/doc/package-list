@@ -1,0 +1,13 @@
+coupon.sys.core.beans
+coupon.sys.core.configuration
+coupon.sys.core.connection
+coupon.sys.core.coupon.system
+coupon.sys.core.dao
+coupon.sys.core.dao.db
+coupon.sys.core.dao.db.utils
+coupon.sys.core.exceptions
+coupon.sys.core.facade
+coupon.sys.core.sub.processes
+coupon.sys.mainTest
+coupon.sys.mainTestByRole
+dbCreation

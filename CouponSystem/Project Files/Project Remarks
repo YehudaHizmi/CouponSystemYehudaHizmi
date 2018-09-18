@@ -1,0 +1,7 @@
+CustomerDBDAO
+	-I added to the getCoupon method the Customer object as parameter since we have to know for which customer we need to return the Coupons (return the relevant coupons).
+	
+
+CompanyDBDAO
+	-I added to the getCoupon method the Company object as parameter since we have to know for which company we need to return the Coupons (return the relevant coupons).	
+	

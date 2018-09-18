@@ -1,0 +1,6 @@
+--See all tables created by the user
+select s.schemaname || '.' || t.tablename  
+     from sys.systables t, sys.sysschemas s  
+     where t.schemaid = s.schemaid 
+          and t.tabletype = 'T' 
+     order by s.schemaname, t.tablename;
