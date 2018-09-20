@@ -51,35 +51,7 @@ public class Configuration {
 
 	
 	private Configuration() {
-		
-	/*	Properties prop = new Properties();
-		InputStream input = null;
-		try{
-		    input = new FileInputStream("Configuration.Properties");
-		    prop.load(input);
-		} catch (IOException ex) {
-			    ex.printStackTrace();
-			    System.exit(1);
-	   	}
-		
-		this.DB_MAX_CONNECTIONS =  Integer.parseInt(prop.getProperty("DB_MAX_CONNECTIONS"));
-		this.DB_URL = prop.getProperty("DB_URL");
-		this.DRIVER = prop.getProperty("DRIVER");
-		this.EMAIL_BODY_FAILURE = prop.getProperty("EMAIL_BODY_FAILURE");
-		this.SUBJECT_FAILURE = prop.getProperty("SUBJECT_FAILURE");
-		this.EMAIL_BODY_SUCCESS = prop.getProperty("EMAIL_BODY_SUCCESS");
-		this.EMAIL_BODY_CLOSE = prop.getProperty("EMAIL_BODY_CLOSE");	
-		this.SUBJECT_SUCCESS = prop.getProperty("SUBJECT_SUCCESS"); 				
-		this.TO = prop.getProperty("TO");
-		this.CC = prop.getProperty("CC");
-		this.SENDER = prop.getProperty("SENDER");
-		this.SENDER_PASSWORD = prop.getProperty("SENDER_PASSWORD");
-		this.ADMIN_USERNAME = prop.getProperty("ADMIN_USERNAME");
-		this.ADMIN_PASSWORD = prop.getProperty("ADMIN_PASSWORD");
-		this.SUB_PROC_SLEEP_TIME = Long.parseLong(prop.getProperty("SUB_PROC_SLEEP_TIME"));
-	*/
-		
-		
+			
 		this.DB_MAX_CONNECTIONS =  10;
 		this.DB_URL = "jdbc:derby://localhost:1527/CouponSystem;create=true";
 		this.DRIVER = "oracle.jdbc.driver.OracleDriver";
