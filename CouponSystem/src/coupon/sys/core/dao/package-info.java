@@ -1,6 +1,6 @@
 /**
- * This pachage defines all the Dao (Data Access Object) intefaces for the coupon system.
- * It has 3 main iterfaces for each of the main tables in the DB:<br>
+ * This package defines all the Dao (Data Access Object) interfaces for the coupon system.
+ * It has 3 main interfaces for each of the main tables in the DB:<br>
  * 1. CompanyDao<br>
  * 2. CustomerDao<br>
  * 3. CouponDao<br>
