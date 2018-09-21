@@ -150,7 +150,7 @@ public class AdminFacade implements ClientFacade {
 	 * @return - The company's id
 	 * @throws CouponSystemException - throws a general exception with a message "Unable to retrieve company's id from company name [Company name: " + CompanyName +"]"
 	 */
-	public long getCompanyIfFromName(String CompanyName) throws CouponSystemException  {
+	public long getCompanyIdFromName(String CompanyName) throws CouponSystemException  {
 		long companyId = companyDaoDB.getCompanyIdFromName(CompanyName);
 		if(Long.valueOf(companyId) != null) {
 			return companyId;
